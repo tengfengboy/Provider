@@ -77,7 +77,7 @@ public class MyProviderActivity extends AppCompatActivity {
                 Uri uri = Uri.parse("content://com.example.sqlitetest.provider/book/" + newId);
                 ContentValues values = new ContentValues();
                 values.put("name", "A Storm of Swords");
-                values.put("pages", 1216);
+                values.put("pages", 156);
                 values.put("price", 24.05);
                 getContentResolver().update(uri, values, null, null);
             }
